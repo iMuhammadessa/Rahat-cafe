@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&family=Zen+Dots&display=swap');
+
 * {
 	margin: 0px;
 	padding: 0px;
+	font-family: 'Roboto', sans-serif;
 }
 .container-fluid {
 	background-color: #0078FF;
@@ -8,12 +11,60 @@
 	width: 100%;
 	height: 100px;
 }
-.Welcome {
+.welcome {
 	padding-top: 30px;
+	text-transform: uppercase;
+	color: black;
+}
+.element {
+	padding-top: 30px;
+	text-transform: uppercase;
+	color: black;
 }
 .element-1 {
 	background-color: #00FF08;
 	color: #fff;
 	width: 100%;
 	height: 300px;
+}
+
+.box-1{
+	width: 20%;
+	height: 220px;
+	background-color: #ff8500;
+	color: yellow;
+	text-align: center;
+	float: left;
+}
+.box-2{
+	width: 20%;
+	height: 220px;
+	background-color: red;
+	color: yellow;
+	text-align: center;
+	float: left;
+}
+.box-3{
+	width: 20%;
+	height: 220px;
+	background-color: yellow;
+	color: yellow;
+	text-align: center;
+	float: left;
+}
+.box-4{
+	width: 20%;
+	height: 220px;
+	background-color: purple;
+	color: yellow;
+	text-align: center;
+	float: left;
+}
+.box-5{
+	width: 20%;
+	height: 220px;
+	background-color: #00ffcc;
+	color: yellow;
+	text-align: center;
+	float: left;
 }
