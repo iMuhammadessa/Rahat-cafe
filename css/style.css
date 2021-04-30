@@ -1,70 +1,86 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&family=Zen+Dots&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;500;700;800&display=swap');
 
 * {
-	margin: 0px;
-	padding: 0px;
-	font-family: 'Roboto', sans-serif;
-}
-.container-fluid {
-	background-color: #0078FF;
-	color: #fff;
-	width: 100%;
-	height: 100px;
-}
-.welcome {
-	padding-top: 30px;
-	text-transform: uppercase;
-	color: black;
-}
-.element {
-	padding-top: 30px;
-	text-transform: uppercase;
-	color: black;
-}
-.element-1 {
-	background-color: #00FF08;
-	color: #fff;
-	width: 100%;
-	height: 300px;
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: 'Dosis', sans-serif;
 }
 
-.box-1{
-	width: 20%;
-	height: 220px;
-	background-color: #ff8500;
-	color: yellow;
-	text-align: center;
-	float: left;
+/* HEADER SECTION */
+
+.header {
+  background: linear-gradient(to bottom right, #d7fd4e, #00000031);
+  font-size: 50px;
+  color: #fff;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
-.box-2{
-	width: 20%;
-	height: 220px;
-	background-color: red;
-	color: yellow;
-	text-align: center;
-	float: left;
+
+/* MENU SECTION */
+
+.menu {
+  width: 100%;
+  background: black;
+  height: 40px;
 }
-.box-3{
-	width: 20%;
-	height: 220px;
-	background-color: yellow;
-	color: yellow;
-	text-align: center;
-	float: left;
+
+.menu ul {
+  text-align: center;
 }
-.box-4{
-	width: 20%;
-	height: 220px;
-	background-color: purple;
-	color: yellow;
-	text-align: center;
-	float: left;
+
+.menu ul li {
+  list-style: none;
+  display: inline;
 }
-.box-5{
-	width: 20%;
-	height: 220px;
-	background-color: #00ffcc;
-	color: yellow;
-	text-align: center;
-	float: left;
+.menu ul li a {
+  text-decoration: none;
+  color: #dff688;
+  display: inline-block;
+  line-height: 40px;
+  padding: 0px 15px 0px 15px;
+}
+
+/* SERVICES SECTION */
+
+.services {
+  width: 100%;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  text-align: center;
+}
+
+.col-wrapper {
+  width: 90%;
+  margin: auto;
+  padding-top: 50px;
+}
+
+.col-wrapper::after {
+  clear: both;
+  display: table;
+  content: '';
+}
+
+.services-col {
+  width: 33.33%;
+  padding: 10px 30px 10px 30px;
+  float: left;
+}
+.green-tea-image {
+  width: 280px;
+  max-width: 100%;
+}
+
+.black-tea-image {
+  width: 350px;
+  max-width: 100%;
+}
+
+.coffee-image {
+  width: 290px;
+  max-width: 100%;
 }
