@@ -84,3 +84,92 @@
   width: 290px;
   max-width: 100%;
 }
+
+/* ABOUT-US SECTION */
+
+.about-us {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  text-align: center;
+  background-color: #f9ffe2;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  margin-top: 30px;
+}
+
+.about-us-content {
+  width: 80%;
+  margin: auto;
+  font-size: 20px;
+}
+
+.about-button {
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  margin-top: 30px;
+  border: none;
+  outline: 1px solid #000;
+  cursor: pointer;
+}
+
+/* PARTNERS SECTION */
+
+.brands {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  width: 100%;
+  text-align: center;
+}
+
+.brands-wrapper {
+  width: 90%;
+  padding-top: 50px;
+  margin: auto;
+}
+
+.brands-wrapper::after {
+  clear: both;
+  display: tables;
+  content: '';
+}
+.col-brands {
+  width: 33.33%;
+  float: left;
+  padding: 10px 30px 20px 30px;
+}
+
+.col-brands img {
+  max-width: 100%;
+}
+
+.col-1 {
+  max-width: 300px;
+  max-height: 300px;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  padding: 10px;
+}
+
+.col-2 {
+  max-width: 300px;
+  max-height: 300px;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  padding: 10px;
+}
+
+.col-3 {
+  max-width: 300px;
+  max-height: 300px;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  padding: 10px;
+}
+
+.chayeekhana {
+  width: 150px;
+}
+
+.rahat-bakers {
+  width: 150px;
+}
+.darewro {
+  width: 130px;
+}
